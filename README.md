@@ -39,7 +39,7 @@ Run `python -m unittest discover -s tests -v` from the repository root. The chec
 
 ## Study website
 
-The repository also includes a static website for browsing the lessons, practice tasks, solutions, study plan, and sample data. Topic completion is stored locally in the browser, not synced between devices. The Python Excel checker still runs locally as described above.
+The repository also includes a static website for browsing the lessons, practice tasks, solutions, study plan, and sample data. Excel's Learn tab has eight guided lessons, each followed by a three-question exam with explanations and unlimited retries. Step exam best scores and manually marked topic completion are stored locally in the browser, not synced between devices. These step exams are separate from the original Excel dataset exercises; the Python Excel checker still runs locally as described above.
 
 To run the website locally (Node.js 20.19+ or 22.12+):
 
@@ -48,4 +48,4 @@ npm ci
 npm run dev
 ```
 
-To create a production build, run `npm run build`. The output is in `dist/`. For Vercel, import this repository with the repository root as the project root. `vercel.json` specifies the build command and output directory. Changes on a non-production branch must be merged into the configured production branch (normally `main`) before they appear on the production domain; confirm that Vercel creates a new deployment after the merge.
+Run `npm test` to check the step exam content and scoring. To create a production build, run `npm run build`. The output is in `dist/`. For Vercel, import this repository with the repository root as the project root. `vercel.json` specifies the build command and output directory. Changes on a non-production branch must be merged into the configured production branch (normally `main`) before they appear on the production domain; confirm that Vercel creates a new deployment after the merge.
