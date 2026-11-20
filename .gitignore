@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .DS_Store
 01-excel/my_answers.json
+node_modules/
+dist/

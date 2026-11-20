@@ -36,3 +36,16 @@ All dealer names and numbers are **fictional**. Company facts in topic 07 come f
 ## Tests
 
 Run `python -m unittest discover -s tests -v` from the repository root. The checker and data tests need only Python's standard library. The isolated data-generator test is skipped unless pandas is installed; CI runs it with pandas 2.2.3.
+
+## Study website
+
+The repository also includes a static website for browsing the lessons, practice tasks, solutions, study plan, and sample data. Topic completion is stored locally in the browser, not synced between devices. The Python Excel checker still runs locally as described above.
+
+To run the website locally (Node.js 20.19+ or 22.12+):
+
+```bash
+npm ci
+npm run dev
+```
+
+To create a production build, run `npm run build`. The output is in `dist/`. For Vercel, import this repository with the repository root as the project root. `vercel.json` specifies the build command and output directory. Changes on a non-production branch must be merged into the configured production branch (normally `main`) before they appear on the production domain; confirm that Vercel creates a new deployment after the merge.
