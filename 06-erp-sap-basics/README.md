@@ -1,7 +1,7 @@
 # 06 · ERP & SAP Basics 🖥️
 
 An **ERP** keeps sales, stock, finance and purchasing in *one* system, so one entry updates everywhere.
-(The company publicly announced a SAP implementation in 2023 — know the basics, not the buttons.)
+(The company announced its [SAP go-live in 2023](https://www.tbsnews.net/economy/corporates/kansai-nerolac-paints-bangladesh-ltd-celebrates-sap-go-live-program-644878) — know the basics, not the buttons.)
 
 ## SAP Sales & Distribution (SD) flow
 ```

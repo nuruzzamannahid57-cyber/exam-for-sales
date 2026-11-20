@@ -1,28 +1,90 @@
-"""Check your Excel answers.  Usage (from repo root):
-    cp 01-excel/my_answers_template.json 01-excel/my_answers.json   # fill in your answers
-    python scripts/check_excel.py
-Numbers: tolerance 0.5 (percentages 0.1). Text: case-insensitive."""
-import json, sys, os
-key = json.load(open("scripts/answer_key.json"))
-path = "01-excel/my_answers.json"
-if not os.path.exists(path):
-    sys.exit("Create 01-excel/my_answers.json first (copy my_answers_template.json).")
-mine = json.load(open(path))
+"""Check the Excel answers saved in 01-excel/my_answers.json.
+
+Counts and other exact values must match exactly. Revenue answers allow a
+0.01 BDT rounding difference; H1_pct allows 0.1 percentage points. Text
+answers are case-insensitive. Run with: python scripts/check_excel.py
+"""
+
+import json
+import sys
+from decimal import Decimal, DecimalException
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+KEY_PATH = ROOT / "scripts" / "answer_key.json"
+ANSWERS_PATH = ROOT / "01-excel" / "my_answers.json"
 XP = {"E": 10, "M": 20, "H": 40}
 LEVELS = {"E": "🟢 EASY", "M": "🟡 MEDIUM", "H": "🔴 HARD"}
-total = 0
-for lv in "EMH":
-    print(f"\n{LEVELS[lv]}")
-    for k in [k for k in key if k.startswith(lv) and not k.endswith("_pct")]:
-        a, ok = mine.get(k), False
-        if a is not None:
-            if isinstance(key[k], str):
-                ok = str(a).strip().lower() == key[k].lower()
-            else:
-                ok = abs(float(a) - key[k]) <= 0.5
-            if k == "H1":  # need name AND percentage
-                ok = ok and mine.get("H1_pct") is not None and abs(float(mine["H1_pct"]) - key["H1_pct"]) <= 0.1
-        print(f"  {k}: {'✅ correct' if ok else '❌ not yet'}")
-        total += XP[lv] if ok else 0
-print(f"\nXP from Excel tasks: {total} / {sum(XP[k[0]] for k in key if k[0] in XP and not k.endswith('_pct') and not k.startswith('_'))}")
-print("Stuck? Read 01-excel/solutions.md AFTER trying for 10 minutes.")
+TOLERANCES = {
+    "E3": Decimal("0.01"),
+    "M1": Decimal("0.01"),
+    "M2": Decimal("0.01"),
+    "H1_pct": Decimal("0.1"),
+}
+
+
+def read_json_object(path):
+    """Load a JSON object while preserving decimal values exactly."""
+    with path.open(encoding="utf-8") as handle:
+        data = json.load(handle, parse_float=Decimal)
+    if not isinstance(data, dict):
+        raise ValueError("the top-level JSON value must be an object")
+    return data
+
+
+def compare(answer, expected, question):
+    """Return (correct, invalid) for one answer; null means unanswered."""
+    if answer is None:
+        return False, False
+    if isinstance(expected, str):
+        if not isinstance(answer, str):
+            return False, True
+        return answer.strip().casefold() == expected.strip().casefold(), False
+    if isinstance(answer, bool) or not isinstance(answer, (str, int, float, Decimal)):
+        return False, True
+    try:
+        value = Decimal(str(answer).strip())
+        expected_value = Decimal(str(expected))
+        if not value.is_finite():
+            return False, True
+        return abs(value - expected_value) <= TOLERANCES.get(question, Decimal(0)), False
+    except (DecimalException, ValueError):
+        return False, True
+
+
+def main():
+    if not ANSWERS_PATH.exists():
+        print("Create 01-excel/my_answers.json first (copy my_answers_template.json).", file=sys.stderr)
+        return 1
+    try:
+        key = read_json_object(KEY_PATH)
+        answers = read_json_object(ANSWERS_PATH)
+    except (OSError, UnicodeError, ValueError) as exc:
+        print(f"Could not read answer files: {exc}", file=sys.stderr)
+        return 1
+
+    total = 0
+    maximum = 0
+    for level in "EMH":
+        print(f"\n{LEVELS[level]}")
+        for question in (k for k in key if k.startswith(level) and not k.endswith("_pct")):
+            correct, invalid = compare(answers.get(question), key[question], question)
+            invalid_fields = [question] if invalid else []
+            if question == "H1":
+                pct_correct, pct_invalid = compare(answers.get("H1_pct"), key["H1_pct"], "H1_pct")
+                correct = correct and pct_correct
+                if pct_invalid:
+                    invalid_fields.append("H1_pct")
+            status = "✅ correct" if correct else "❌ not yet"
+            if invalid_fields:
+                status += f" (invalid value: {', '.join(invalid_fields)})"
+            print(f"  {question}: {status}")
+            total += XP[level] if correct else 0
+            maximum += XP[level]
+    print(f"\nXP from Excel tasks: {total} / {maximum}")
+    print("Stuck? Read 01-excel/solutions.md AFTER trying for 10 minutes.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

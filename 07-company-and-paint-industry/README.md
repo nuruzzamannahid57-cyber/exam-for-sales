@@ -1,16 +1,16 @@
 # 07 · Company & Paint Industry 🎨
 
-## Company fact sheet (from public sources — verify on nerolac.com before the exam)
-- **Name:** Kansai Nerolac Paints (Bangladesh) Limited (KNPBL)
-- **Former name:** RAK Paints Limited; name change approved by the registrar (RJSC) on **17 Aug 2020**
-- **Ownership:** subsidiary of **Kansai Nerolac Paints Ltd (India)**, which holds **55%**; part of **Kansai Paint Co., Ltd., Japan**
-- **Business:** decorative, automotive and industrial coatings
-- **Financial year:** ends **31 March**
-- **Competitors named in press:** Berger Paints, Asian Paints
-- **Public milestones:** SAP system implementation announced (June 2023); dealer incentive trip to Japan (35 dealers); e-commerce agreement with Sindabad.com
-- **Group entry:** Kansai Nerolac announced entry into Bangladesh by acquiring an equity stake in RAK Paints (2018)
+## Company fact sheet
 
-Sources to read: `nerolac.com` (company + products), The Daily Star / TBS business pages.
+Sources checked 20 November 2026. These are dated historical sources, not a guarantee of current ownership, products or policies; check the latest official company disclosures before the exam.
+
+- **Name and former name:** Kansai Nerolac Paints (Bangladesh) Limited (KNPBL), formerly RAK Paints Limited. RJSC approved the name change on **17 August 2020**. [2025 audited financial statements, note 1.1](https://www.nerolac.com/sites/default/files/2025-05/AR_Financials_Kansai_Nerolac_Bangladesh_Ltd.pdf)
+- **Ownership:** The 2025 statements report that **Kansai Nerolac Paints Ltd (India)** held **55%**. The Indian company is part of Japan's **Kansai Paint Co., Ltd.** [2025 Bangladesh statements](https://www.nerolac.com/sites/default/files/2025-05/AR_Financials_Kansai_Nerolac_Bangladesh_Ltd.pdf); [2023 TBS interview](https://www.tbsnews.net/economy/corporates/kansai-nerolac-bets-bright-prospects-country-649682).
+- **Business:** decorative, automotive and industrial coatings. [Company news page, 2022](https://nerolacbd.com/news-and-event/sindabad-sign-deal/)
+- **Financial year:** The audited statements cover the year ended **31 March 2025**. [2025 financial statements](https://www.nerolac.com/sites/default/files/2025-05/AR_Financials_Kansai_Nerolac_Bangladesh_Ltd.pdf)
+- **Competitors named in press:** Berger Paints and Asian Paints. [The Daily Star, 2024](https://www.thedailystar.net/supplements/living-colour/news/healthier-paint-options-3619551)
+- **Public milestones:** SAP go-live celebrated in [June 2023](https://www.tbsnews.net/economy/corporates/kansai-nerolac-paints-bangladesh-ltd-celebrates-sap-go-live-program-644878); [35 dealers visited Japan](https://www.tbsnews.net/economy/corporates/kansai-nerolac-paints-offers-japan-trip-paint-dealers-643966) in 2023; [Sindabad e-commerce agreement](https://nerolacbd.com/news-and-event/sindabad-sign-deal/) in 2022.
+- **Group entry:** The Indian subsidiary acquired a stake in RAK Paints in 2018. [The Daily Star, 2020](https://www.thedailystar.net/business/news/we-will-eat-shares-other-companies-1860511)
 
 ## Paint basics every sales admin should know
 | Term | Meaning |

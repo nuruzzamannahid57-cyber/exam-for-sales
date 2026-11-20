@@ -1,7 +1,7 @@
 # 01 · Excel tasks (easy → hard)
 
 Add an **Amount** column first: `=qty*unit_price*(1-discount_pct/100)`.
-Answers go in `my_answers.json` (copy `my_answers_template.json`). Use plain numbers, no commas.
+Answers go in `my_answers.json` (copy `my_answers_template.json`). Use plain numbers, no commas; leave unanswered fields as `null`. Counts, the average discount rounded to two decimals, and other exact numbers must match exactly. Revenue answers allow a 0.01 BDT rounding difference; H1's percentage allows 0.1 percentage points. Text is case-insensitive. The checker reports invalid values next to the affected question.
 
 ## 🟢 Easy (10 XP each)
 - **E1** How many orders are in the file?

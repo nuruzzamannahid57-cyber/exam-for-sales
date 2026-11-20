@@ -4,7 +4,7 @@ A step-by-step, game-style study repo for **Sr. Executive / Executive – Sales 
 
 ## How the game works
 1. Open the topics **in order** (01 → 09). Topics 01–08 have a `README.md` (learn, 15–30 min), `tasks.md` (🟢 Easy → 🟡 Medium → 🔴 Hard → 🏆 Boss), and `solutions.md` (peek **after** trying). Topic 09 contains interview preparation and a mock exam.
-2. **Unlock rule:** beat the 🏆 Boss of a topic before starting the next one.
+2. **Unlock rule:** beat the 🏆 Boss of a topic before starting the next one. Exceptions: take the mock exam as a baseline on day 1 and begin the topic 08 news-summary streak on day 1 so it can finish before topic 09. Topic 04's boss may also use the mock's aptitude questions.
 3. Earn XP, tick boxes in [`PROGRESS.md`](PROGRESS.md), level up.
 4. For the Excel topic, copy `01-excel/my_answers_template.json` to `01-excel/my_answers.json`, fill in your answers, then run `python scripts/check_excel.py` from the repository root.
 
@@ -32,3 +32,7 @@ python scripts/generate_data.py
 
 The generator overwrites the CSV files, Excel answer key, and answer template.
 All dealer names and numbers are **fictional**. Company facts in topic 07 come from public sources — verify on the official website.
+
+## Tests
+
+Run `python -m unittest discover -s tests -v` from the repository root. The checker and data tests need only Python's standard library. The isolated data-generator test is skipped unless pandas is installed; CI runs it with pandas 2.2.3.
