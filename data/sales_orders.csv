@@ -1,0 +1,301 @@
+order_id,date,dealer,region,product,qty,unit_price,discount_pct
+SO-1001,2026-01-02,Uddin Brothers,Khulna,Interior Emulsion,41,1450,10
+SO-1002,2026-01-02,Karim Enterprise,Dhaka,Interior Emulsion,83,1450,10
+SO-1003,2026-01-02,Majumder Store,Barishal,Wood Polish,61,1600,10
+SO-1004,2026-01-04,Uddin Brothers,Khulna,Wall Putty,12,1100,0
+SO-1005,2026-01-04,Paul Color House,Sylhet,Interior Emulsion,58,1450,10
+SO-1006,2026-01-04,Noor Trading,Chattogram,Wall Putty,18,1100,8
+SO-1007,2026-01-04,Uddin Brothers,Khulna,Exterior Emulsion,57,1850,15
+SO-1008,2026-01-05,Saha Traders,Barishal,Exterior Emulsion,73,1850,2
+SO-1009,2026-01-05,Uddin Brothers,Khulna,Primer,104,980,2
+SO-1010,2026-01-05,Sarker Hardware,Rajshahi,Enamel,68,1350,2
+SO-1011,2026-01-06,Islam Hardware,Chattogram,Interior Emulsion,7,1450,5
+SO-1012,2026-01-07,Bhuiyan Paints,Barishal,Interior Emulsion,50,1450,15
+SO-1013,2026-01-08,Haque Paints,Sylhet,Exterior Emulsion,48,1850,12
+SO-1014,2026-01-08,Mia & Sons,Chattogram,Enamel,89,1350,12
+SO-1015,2026-01-08,Akter Trading,Sylhet,Interior Emulsion,64,1450,2
+SO-1016,2026-01-09,Roy Enterprise,Rajshahi,Wood Polish,72,1600,8
+SO-1017,2026-01-09,Uddin Brothers,Khulna,Exterior Emulsion,24,1850,12
+SO-1018,2026-01-10,Hossain Color Center,Dhaka,Exterior Emulsion,21,1850,10
+SO-1019,2026-01-10,Mia & Sons,Chattogram,Enamel,88,1350,15
+SO-1020,2026-01-10,Akter Trading,Sylhet,Primer,107,980,10
+SO-1021,2026-01-10,Uddin Brothers,Khulna,Interior Emulsion,32,1450,12
+SO-1022,2026-01-10,Talukder Color Mart,Barishal,Enamel,56,1350,5
+SO-1023,2026-01-10,Haque Paints,Sylhet,Wood Polish,50,1600,12
+SO-1024,2026-01-11,Biswas Store,Khulna,Wall Putty,67,1100,2
+SO-1025,2026-01-11,Uddin Brothers,Khulna,Primer,99,980,10
+SO-1026,2026-01-12,Uddin Brothers,Khulna,Exterior Emulsion,100,1850,0
+SO-1027,2026-01-13,Majumder Store,Barishal,Enamel,62,1350,15
+SO-1028,2026-01-15,Saha Traders,Barishal,Primer,89,980,15
+SO-1029,2026-01-16,Khan Traders,Rajshahi,Wall Putty,62,1100,8
+SO-1030,2026-01-17,Saha Traders,Barishal,Wall Putty,88,1100,5
+SO-1031,2026-01-17,Rahman Traders,Dhaka,Exterior Emulsion,102,1850,5
+SO-1032,2026-01-17,Alam Paints House,Dhaka,Wall Putty,97,1100,12
+SO-1033,2026-01-18,Mondol Enterprise,Sylhet,Exterior Emulsion,72,1850,8
+SO-1034,2026-01-18,Sultana Paints,Chattogram,Wood Polish,75,1600,8
+SO-1035,2026-01-19,Sarker Hardware,Rajshahi,Exterior Emulsion,53,1850,5
+SO-1036,2026-01-21,Uddin Brothers,Khulna,Wood Polish,64,1600,8
+SO-1037,2026-01-22,Paul Color House,Sylhet,Primer,58,980,12
+SO-1038,2026-01-22,Majumder Store,Barishal,Interior Emulsion,43,1450,5
+SO-1039,2026-01-22,Rahman Traders,Dhaka,Enamel,17,1350,0
+SO-1040,2026-01-22,Mondol Enterprise,Sylhet,Primer,13,980,15
+SO-1041,2026-01-23,Mia & Sons,Chattogram,Exterior Emulsion,49,1850,2
+SO-1042,2026-01-24,Hossain Color Center,Dhaka,Wall Putty,26,1100,10
+SO-1043,2026-01-24,Sultana Paints,Chattogram,Exterior Emulsion,117,1850,8
+SO-1044,2026-01-25,Haque Paints,Sylhet,Exterior Emulsion,24,1850,5
+SO-1045,2026-01-25,Paul Color House,Sylhet,Primer,113,980,2
+SO-1046,2026-01-25,Sarker Hardware,Rajshahi,Primer,29,980,12
+SO-1047,2026-01-26,Das Paints Corner,Khulna,Wood Polish,11,1600,8
+SO-1048,2026-01-26,Haque Paints,Sylhet,Interior Emulsion,105,1450,5
+SO-1049,2026-01-27,Biswas Store,Khulna,Interior Emulsion,83,1450,10
+SO-1050,2026-01-28,Haque Paints,Sylhet,Interior Emulsion,8,1450,5
+SO-1051,2026-01-28,Hossain Color Center,Dhaka,Wood Polish,110,1600,15
+SO-1052,2026-01-28,Saha Traders,Barishal,Exterior Emulsion,35,1850,2
+SO-1053,2026-01-29,Haque Paints,Sylhet,Interior Emulsion,84,1450,12
+SO-1054,2026-01-29,Alam Paints House,Dhaka,Wood Polish,25,1600,10
+SO-1055,2026-01-31,Sarker Hardware,Rajshahi,Wall Putty,76,1100,10
+SO-1056,2026-01-31,Akter Trading,Sylhet,Enamel,98,1350,15
+SO-1057,2026-02-01,Islam Hardware,Chattogram,Enamel,39,1350,5
+SO-1058,2026-02-01,Noor Trading,Chattogram,Wall Putty,63,1100,10
+SO-1059,2026-02-02,Sultana Paints,Chattogram,Wall Putty,81,1100,5
+SO-1060,2026-02-02,Akter Trading,Sylhet,Interior Emulsion,18,1450,5
+SO-1061,2026-02-03,Sarker Hardware,Rajshahi,Enamel,81,1350,12
+SO-1062,2026-02-03,Das Paints Corner,Khulna,Exterior Emulsion,77,1850,15
+SO-1063,2026-02-03,Haque Paints,Sylhet,Wall Putty,16,1100,0
+SO-1064,2026-02-04,Sarker Hardware,Rajshahi,Wood Polish,74,1600,2
+SO-1065,2026-02-05,Das Paints Corner,Khulna,Wall Putty,18,1100,15
+SO-1066,2026-02-05,Haque Paints,Sylhet,Exterior Emulsion,5,1850,15
+SO-1067,2026-02-07,Biswas Store,Khulna,Enamel,25,1350,0
+SO-1068,2026-02-08,Ahmed Decor,Rajshahi,Wall Putty,71,1100,15
+SO-1069,2026-02-09,Biswas Store,Khulna,Wood Polish,44,1600,8
+SO-1070,2026-02-09,Majumder Store,Barishal,Primer,5,980,5
+SO-1071,2026-02-10,Noor Trading,Chattogram,Primer,73,980,15
+SO-1072,2026-02-10,Majumder Store,Barishal,Wood Polish,70,1600,0
+SO-1073,2026-02-11,Bhuiyan Paints,Barishal,Interior Emulsion,120,1450,5
+SO-1074,2026-02-11,Paul Color House,Sylhet,Interior Emulsion,89,1450,15
+SO-1075,2026-02-12,Bhuiyan Paints,Barishal,Primer,107,980,0
+SO-1076,2026-02-12,Mia & Sons,Chattogram,Interior Emulsion,76,1450,2
+SO-1077,2026-02-13,Hossain Color Center,Dhaka,Wall Putty,18,1100,12
+SO-1078,2026-02-13,Hossain Color Center,Dhaka,Primer,6,980,15
+SO-1079,2026-02-13,Bhuiyan Paints,Barishal,Interior Emulsion,46,1450,8
+SO-1080,2026-02-13,Chowdhury Color Point,Khulna,Exterior Emulsion,88,1850,0
+SO-1081,2026-02-14,Karim Enterprise,Dhaka,Enamel,102,1350,5
+SO-1082,2026-02-14,Mia & Sons,Chattogram,Exterior Emulsion,31,1850,12
+SO-1083,2026-02-15,Bhuiyan Paints,Barishal,Enamel,44,1350,12
+SO-1084,2026-02-17,Ahmed Decor,Rajshahi,Exterior Emulsion,75,1850,12
+SO-1085,2026-02-17,Talukder Color Mart,Barishal,Exterior Emulsion,92,1850,2
+SO-1086,2026-02-17,Alam Paints House,Dhaka,Primer,87,980,12
+SO-1087,2026-02-18,Mia & Sons,Chattogram,Enamel,116,1350,15
+SO-1088,2026-02-20,Saha Traders,Barishal,Enamel,43,1350,2
+SO-1089,2026-02-20,Karim Enterprise,Dhaka,Enamel,36,1350,0
+SO-1090,2026-02-20,Karim Enterprise,Dhaka,Interior Emulsion,19,1450,15
+SO-1091,2026-02-21,Roy Enterprise,Rajshahi,Wall Putty,42,1100,15
+SO-1092,2026-02-22,Sultana Paints,Chattogram,Wall Putty,82,1100,12
+SO-1093,2026-02-23,Das Paints Corner,Khulna,Wood Polish,44,1600,12
+SO-1094,2026-02-24,Rahman Traders,Dhaka,Interior Emulsion,94,1450,5
+SO-1095,2026-02-24,Mondol Enterprise,Sylhet,Wall Putty,24,1100,8
+SO-1096,2026-02-24,Islam Hardware,Chattogram,Enamel,106,1350,15
+SO-1097,2026-02-26,Islam Hardware,Chattogram,Enamel,50,1350,8
+SO-1098,2026-02-26,Rahman Traders,Dhaka,Primer,70,980,5
+SO-1099,2026-02-26,Ahmed Decor,Rajshahi,Wood Polish,104,1600,2
+SO-1100,2026-02-26,Noor Trading,Chattogram,Wall Putty,115,1100,12
+SO-1101,2026-02-27,Mia & Sons,Chattogram,Interior Emulsion,89,1450,8
+SO-1102,2026-02-27,Talukder Color Mart,Barishal,Wall Putty,116,1100,12
+SO-1103,2026-02-28,Hossain Color Center,Dhaka,Exterior Emulsion,111,1850,5
+SO-1104,2026-03-02,Hossain Color Center,Dhaka,Wall Putty,46,1100,5
+SO-1105,2026-03-02,Majumder Store,Barishal,Primer,19,980,8
+SO-1106,2026-03-03,Islam Hardware,Chattogram,Primer,115,980,10
+SO-1107,2026-03-04,Rahman Traders,Dhaka,Wood Polish,65,1600,0
+SO-1108,2026-03-06,Paul Color House,Sylhet,Wood Polish,54,1600,5
+SO-1109,2026-03-09,Noor Trading,Chattogram,Exterior Emulsion,101,1850,15
+SO-1110,2026-03-09,Haque Paints,Sylhet,Wood Polish,22,1600,12
+SO-1111,2026-03-09,Das Paints Corner,Khulna,Interior Emulsion,64,1450,8
+SO-1112,2026-03-10,Mia & Sons,Chattogram,Enamel,52,1350,0
+SO-1113,2026-03-10,Mia & Sons,Chattogram,Interior Emulsion,74,1450,12
+SO-1114,2026-03-10,Haque Paints,Sylhet,Wood Polish,34,1600,5
+SO-1115,2026-03-11,Mia & Sons,Chattogram,Wall Putty,59,1100,10
+SO-1116,2026-03-12,Khan Traders,Rajshahi,Enamel,84,1350,12
+SO-1117,2026-03-13,Bhuiyan Paints,Barishal,Exterior Emulsion,106,1850,5
+SO-1118,2026-03-15,Chowdhury Color Point,Khulna,Enamel,50,1350,2
+SO-1119,2026-03-17,Hossain Color Center,Dhaka,Primer,9,980,0
+SO-1120,2026-03-17,Khan Traders,Rajshahi,Enamel,24,1350,8
+SO-1121,2026-03-18,Khan Traders,Rajshahi,Wood Polish,37,1600,8
+SO-1122,2026-03-19,Saha Traders,Barishal,Wall Putty,32,1100,10
+SO-1123,2026-03-20,Talukder Color Mart,Barishal,Enamel,78,1350,0
+SO-1124,2026-03-21,Karim Enterprise,Dhaka,Wall Putty,38,1100,15
+SO-1125,2026-03-21,Sultana Paints,Chattogram,Exterior Emulsion,20,1850,0
+SO-1126,2026-03-21,Mia & Sons,Chattogram,Wood Polish,15,1600,10
+SO-1127,2026-03-22,Hossain Color Center,Dhaka,Enamel,40,1350,10
+SO-1128,2026-03-22,Karim Enterprise,Dhaka,Primer,25,980,5
+SO-1129,2026-03-23,Rahman Traders,Dhaka,Interior Emulsion,22,1450,0
+SO-1130,2026-03-23,Alam Paints House,Dhaka,Primer,63,980,15
+SO-1131,2026-03-24,Islam Hardware,Chattogram,Wood Polish,27,1600,8
+SO-1132,2026-03-25,Ahmed Decor,Rajshahi,Interior Emulsion,23,1450,12
+SO-1133,2026-03-26,Paul Color House,Sylhet,Enamel,46,1350,12
+SO-1134,2026-03-26,Talukder Color Mart,Barishal,Primer,101,980,0
+SO-1135,2026-03-26,Ahmed Decor,Rajshahi,Primer,111,980,0
+SO-1136,2026-03-26,Chowdhury Color Point,Khulna,Wood Polish,42,1600,12
+SO-1137,2026-03-26,Rahman Traders,Dhaka,Enamel,91,1350,8
+SO-1138,2026-03-28,Ahmed Decor,Rajshahi,Enamel,63,1350,10
+SO-1139,2026-03-28,Biswas Store,Khulna,Wood Polish,51,1600,2
+SO-1140,2026-03-29,Paul Color House,Sylhet,Primer,86,980,10
+SO-1141,2026-03-29,Haque Paints,Sylhet,Primer,115,980,2
+SO-1142,2026-03-29,Rahman Traders,Dhaka,Enamel,30,1350,10
+SO-1143,2026-03-30,Karim Enterprise,Dhaka,Exterior Emulsion,87,1850,5
+SO-1144,2026-03-30,Biswas Store,Khulna,Primer,45,980,10
+SO-1145,2026-03-30,Talukder Color Mart,Barishal,Primer,115,980,8
+SO-1146,2026-03-31,Paul Color House,Sylhet,Primer,101,980,8
+SO-1147,2026-04-01,Mondol Enterprise,Sylhet,Exterior Emulsion,82,1850,15
+SO-1148,2026-04-01,Sarker Hardware,Rajshahi,Exterior Emulsion,109,1850,15
+SO-1149,2026-04-03,Saha Traders,Barishal,Wall Putty,106,1100,2
+SO-1150,2026-04-04,Chowdhury Color Point,Khulna,Wood Polish,55,1600,0
+SO-1151,2026-04-04,Bhuiyan Paints,Barishal,Primer,88,980,8
+SO-1152,2026-04-04,Rahman Traders,Dhaka,Wall Putty,37,1100,15
+SO-1153,2026-04-05,Khan Traders,Rajshahi,Interior Emulsion,40,1450,10
+SO-1154,2026-04-06,Majumder Store,Barishal,Exterior Emulsion,13,1850,5
+SO-1155,2026-04-07,Ahmed Decor,Rajshahi,Wall Putty,35,1100,15
+SO-1156,2026-04-09,Mondol Enterprise,Sylhet,Exterior Emulsion,107,1850,12
+SO-1157,2026-04-09,Khan Traders,Rajshahi,Exterior Emulsion,40,1850,8
+SO-1158,2026-04-09,Ahmed Decor,Rajshahi,Exterior Emulsion,44,1850,2
+SO-1159,2026-04-09,Paul Color House,Sylhet,Enamel,85,1350,0
+SO-1160,2026-04-10,Karim Enterprise,Dhaka,Interior Emulsion,47,1450,10
+SO-1161,2026-04-12,Majumder Store,Barishal,Enamel,31,1350,10
+SO-1162,2026-04-13,Paul Color House,Sylhet,Primer,40,980,12
+SO-1163,2026-04-13,Biswas Store,Khulna,Exterior Emulsion,97,1850,2
+SO-1164,2026-04-13,Hossain Color Center,Dhaka,Wall Putty,5,1100,2
+SO-1165,2026-04-14,Mia & Sons,Chattogram,Wall Putty,108,1100,0
+SO-1166,2026-04-14,Bhuiyan Paints,Barishal,Wall Putty,45,1100,2
+SO-1167,2026-04-15,Paul Color House,Sylhet,Wood Polish,106,1600,0
+SO-1168,2026-04-15,Das Paints Corner,Khulna,Primer,111,980,15
+SO-1169,2026-04-15,Chowdhury Color Point,Khulna,Interior Emulsion,37,1450,0
+SO-1170,2026-04-15,Majumder Store,Barishal,Primer,74,980,15
+SO-1171,2026-04-16,Alam Paints House,Dhaka,Exterior Emulsion,54,1850,10
+SO-1172,2026-04-16,Saha Traders,Barishal,Enamel,65,1350,5
+SO-1173,2026-04-17,Hossain Color Center,Dhaka,Primer,45,980,10
+SO-1174,2026-04-17,Haque Paints,Sylhet,Wall Putty,38,1100,5
+SO-1175,2026-04-19,Paul Color House,Sylhet,Interior Emulsion,50,1450,12
+SO-1176,2026-04-19,Bhuiyan Paints,Barishal,Wall Putty,117,1100,0
+SO-1177,2026-04-19,Ahmed Decor,Rajshahi,Wood Polish,63,1600,15
+SO-1178,2026-04-20,Ahmed Decor,Rajshahi,Interior Emulsion,8,1450,10
+SO-1179,2026-04-21,Biswas Store,Khulna,Primer,115,980,12
+SO-1180,2026-04-22,Paul Color House,Sylhet,Wall Putty,76,1100,12
+SO-1181,2026-04-22,Das Paints Corner,Khulna,Exterior Emulsion,117,1850,0
+SO-1182,2026-04-23,Akter Trading,Sylhet,Interior Emulsion,29,1450,15
+SO-1183,2026-04-24,Biswas Store,Khulna,Primer,38,980,2
+SO-1184,2026-04-24,Paul Color House,Sylhet,Wall Putty,20,1100,10
+SO-1185,2026-04-26,Paul Color House,Sylhet,Primer,28,980,8
+SO-1186,2026-04-26,Ahmed Decor,Rajshahi,Interior Emulsion,6,1450,0
+SO-1187,2026-04-26,Bhuiyan Paints,Barishal,Primer,46,980,0
+SO-1188,2026-04-28,Das Paints Corner,Khulna,Interior Emulsion,26,1450,2
+SO-1189,2026-04-28,Das Paints Corner,Khulna,Primer,86,980,8
+SO-1190,2026-04-28,Bhuiyan Paints,Barishal,Interior Emulsion,85,1450,8
+SO-1191,2026-04-28,Sarker Hardware,Rajshahi,Enamel,118,1350,5
+SO-1192,2026-04-28,Mia & Sons,Chattogram,Wood Polish,80,1600,0
+SO-1193,2026-04-29,Haque Paints,Sylhet,Wall Putty,16,1100,2
+SO-1194,2026-04-30,Islam Hardware,Chattogram,Wall Putty,114,1100,0
+SO-1195,2026-04-30,Sultana Paints,Chattogram,Primer,93,980,2
+SO-1196,2026-04-30,Ahmed Decor,Rajshahi,Primer,27,980,5
+SO-1197,2026-04-30,Majumder Store,Barishal,Interior Emulsion,16,1450,0
+SO-1198,2026-04-30,Haque Paints,Sylhet,Exterior Emulsion,92,1850,12
+SO-1199,2026-05-01,Majumder Store,Barishal,Exterior Emulsion,38,1850,0
+SO-1200,2026-05-01,Sultana Paints,Chattogram,Wood Polish,101,1600,2
+SO-1201,2026-05-01,Paul Color House,Sylhet,Exterior Emulsion,5,1850,0
+SO-1202,2026-05-01,Paul Color House,Sylhet,Interior Emulsion,89,1450,12
+SO-1203,2026-05-02,Paul Color House,Sylhet,Interior Emulsion,116,1450,12
+SO-1204,2026-05-02,Hossain Color Center,Dhaka,Enamel,80,1350,8
+SO-1205,2026-05-03,Akter Trading,Sylhet,Wood Polish,59,1600,5
+SO-1206,2026-05-04,Majumder Store,Barishal,Interior Emulsion,96,1450,12
+SO-1207,2026-05-04,Ahmed Decor,Rajshahi,Wall Putty,48,1100,0
+SO-1208,2026-05-05,Noor Trading,Chattogram,Enamel,48,1350,10
+SO-1209,2026-05-06,Sarker Hardware,Rajshahi,Primer,118,980,5
+SO-1210,2026-05-06,Uddin Brothers,Khulna,Wood Polish,22,1600,10
+SO-1211,2026-05-08,Roy Enterprise,Rajshahi,Wood Polish,92,1600,0
+SO-1212,2026-05-09,Haque Paints,Sylhet,Wood Polish,94,1600,8
+SO-1213,2026-05-11,Rahman Traders,Dhaka,Exterior Emulsion,65,1850,5
+SO-1214,2026-05-11,Sultana Paints,Chattogram,Interior Emulsion,43,1450,0
+SO-1215,2026-05-11,Sultana Paints,Chattogram,Wood Polish,115,1600,2
+SO-1216,2026-05-11,Majumder Store,Barishal,Wood Polish,92,1600,10
+SO-1217,2026-05-11,Noor Trading,Chattogram,Wall Putty,114,1100,10
+SO-1218,2026-05-12,Roy Enterprise,Rajshahi,Interior Emulsion,115,1450,15
+SO-1219,2026-05-12,Mia & Sons,Chattogram,Wall Putty,29,1100,5
+SO-1220,2026-05-13,Das Paints Corner,Khulna,Wood Polish,117,1600,12
+SO-1221,2026-05-13,Haque Paints,Sylhet,Interior Emulsion,8,1450,2
+SO-1222,2026-05-14,Ahmed Decor,Rajshahi,Wood Polish,92,1600,10
+SO-1223,2026-05-14,Akter Trading,Sylhet,Wall Putty,67,1100,5
+SO-1224,2026-05-15,Talukder Color Mart,Barishal,Enamel,36,1350,8
+SO-1225,2026-05-15,Das Paints Corner,Khulna,Enamel,110,1350,10
+SO-1226,2026-05-16,Paul Color House,Sylhet,Interior Emulsion,20,1450,10
+SO-1227,2026-05-17,Chowdhury Color Point,Khulna,Interior Emulsion,24,1450,10
+SO-1228,2026-05-18,Roy Enterprise,Rajshahi,Wall Putty,71,1100,15
+SO-1229,2026-05-19,Haque Paints,Sylhet,Primer,73,980,8
+SO-1230,2026-05-19,Haque Paints,Sylhet,Enamel,29,1350,2
+SO-1231,2026-05-19,Sarker Hardware,Rajshahi,Exterior Emulsion,50,1850,2
+SO-1232,2026-05-20,Talukder Color Mart,Barishal,Wood Polish,26,1600,10
+SO-1233,2026-05-20,Akter Trading,Sylhet,Exterior Emulsion,39,1850,12
+SO-1234,2026-05-23,Haque Paints,Sylhet,Wood Polish,55,1600,5
+SO-1235,2026-05-23,Das Paints Corner,Khulna,Exterior Emulsion,93,1850,2
+SO-1236,2026-05-24,Mia & Sons,Chattogram,Primer,92,980,10
+SO-1237,2026-05-24,Paul Color House,Sylhet,Primer,43,980,15
+SO-1238,2026-05-24,Talukder Color Mart,Barishal,Wood Polish,46,1600,15
+SO-1239,2026-05-24,Rahman Traders,Dhaka,Primer,94,980,5
+SO-1240,2026-05-24,Saha Traders,Barishal,Wall Putty,82,1100,8
+SO-1241,2026-05-24,Majumder Store,Barishal,Wood Polish,19,1600,8
+SO-1242,2026-05-25,Mondol Enterprise,Sylhet,Primer,39,980,12
+SO-1243,2026-05-26,Ahmed Decor,Rajshahi,Wood Polish,48,1600,10
+SO-1244,2026-05-26,Uddin Brothers,Khulna,Enamel,98,1350,2
+SO-1245,2026-05-27,Sarker Hardware,Rajshahi,Wall Putty,84,1100,15
+SO-1246,2026-05-28,Bhuiyan Paints,Barishal,Enamel,114,1350,5
+SO-1247,2026-05-28,Bhuiyan Paints,Barishal,Enamel,103,1350,15
+SO-1248,2026-05-29,Ahmed Decor,Rajshahi,Wood Polish,21,1600,8
+SO-1249,2026-05-29,Rahman Traders,Dhaka,Wall Putty,21,1100,5
+SO-1250,2026-05-29,Rahman Traders,Dhaka,Wall Putty,74,1100,15
+SO-1251,2026-05-29,Islam Hardware,Chattogram,Primer,87,980,10
+SO-1252,2026-05-30,Majumder Store,Barishal,Enamel,74,1350,2
+SO-1253,2026-05-30,Sultana Paints,Chattogram,Enamel,53,1350,5
+SO-1254,2026-05-31,Hossain Color Center,Dhaka,Primer,113,980,12
+SO-1255,2026-05-31,Das Paints Corner,Khulna,Interior Emulsion,14,1450,10
+SO-1256,2026-05-31,Mia & Sons,Chattogram,Interior Emulsion,44,1450,10
+SO-1257,2026-06-01,Islam Hardware,Chattogram,Wood Polish,16,1600,15
+SO-1258,2026-06-01,Mia & Sons,Chattogram,Interior Emulsion,71,1450,2
+SO-1259,2026-06-02,Sultana Paints,Chattogram,Primer,91,980,10
+SO-1260,2026-06-02,Paul Color House,Sylhet,Enamel,46,1350,8
+SO-1261,2026-06-02,Akter Trading,Sylhet,Interior Emulsion,64,1450,8
+SO-1262,2026-06-05,Biswas Store,Khulna,Wall Putty,85,1100,12
+SO-1263,2026-06-07,Chowdhury Color Point,Khulna,Wall Putty,16,1100,15
+SO-1264,2026-06-07,Mondol Enterprise,Sylhet,Wall Putty,66,1100,10
+SO-1265,2026-06-08,Mia & Sons,Chattogram,Wall Putty,55,1100,8
+SO-1266,2026-06-09,Ahmed Decor,Rajshahi,Wood Polish,67,1600,10
+SO-1267,2026-06-09,Ahmed Decor,Rajshahi,Wall Putty,119,1100,5
+SO-1268,2026-06-10,Noor Trading,Chattogram,Interior Emulsion,57,1450,2
+SO-1269,2026-06-11,Khan Traders,Rajshahi,Enamel,9,1350,15
+SO-1270,2026-06-11,Roy Enterprise,Rajshahi,Interior Emulsion,6,1450,15
+SO-1271,2026-06-12,Alam Paints House,Dhaka,Interior Emulsion,20,1450,12
+SO-1272,2026-06-12,Mondol Enterprise,Sylhet,Wall Putty,56,1100,8
+SO-1273,2026-06-12,Islam Hardware,Chattogram,Wood Polish,106,1600,5
+SO-1274,2026-06-12,Roy Enterprise,Rajshahi,Enamel,80,1350,0
+SO-1275,2026-06-13,Mia & Sons,Chattogram,Wall Putty,13,1100,5
+SO-1276,2026-06-14,Uddin Brothers,Khulna,Exterior Emulsion,67,1850,2
+SO-1277,2026-06-15,Akter Trading,Sylhet,Primer,20,980,5
+SO-1278,2026-06-15,Das Paints Corner,Khulna,Enamel,88,1350,5
+SO-1279,2026-06-15,Alam Paints House,Dhaka,Interior Emulsion,27,1450,0
+SO-1280,2026-06-15,Rahman Traders,Dhaka,Interior Emulsion,72,1450,2
+SO-1281,2026-06-16,Noor Trading,Chattogram,Wood Polish,66,1600,0
+SO-1282,2026-06-18,Saha Traders,Barishal,Enamel,99,1350,2
+SO-1283,2026-06-18,Islam Hardware,Chattogram,Interior Emulsion,78,1450,0
+SO-1284,2026-06-19,Karim Enterprise,Dhaka,Wall Putty,60,1100,2
+SO-1285,2026-06-19,Akter Trading,Sylhet,Enamel,66,1350,0
+SO-1286,2026-06-20,Bhuiyan Paints,Barishal,Wood Polish,102,1600,10
+SO-1287,2026-06-20,Hossain Color Center,Dhaka,Enamel,117,1350,12
+SO-1288,2026-06-20,Paul Color House,Sylhet,Primer,111,980,10
+SO-1289,2026-06-22,Haque Paints,Sylhet,Wall Putty,79,1100,5
+SO-1290,2026-06-22,Karim Enterprise,Dhaka,Wall Putty,84,1100,2
+SO-1291,2026-06-23,Karim Enterprise,Dhaka,Primer,84,980,12
+SO-1292,2026-06-23,Biswas Store,Khulna,Exterior Emulsion,103,1850,8
+SO-1293,2026-06-24,Sultana Paints,Chattogram,Primer,109,980,8
+SO-1294,2026-06-24,Das Paints Corner,Khulna,Exterior Emulsion,80,1850,0
+SO-1295,2026-06-25,Bhuiyan Paints,Barishal,Exterior Emulsion,52,1850,15
+SO-1296,2026-06-26,Hossain Color Center,Dhaka,Wall Putty,96,1100,15
+SO-1297,2026-06-26,Ahmed Decor,Rajshahi,Interior Emulsion,85,1450,10
+SO-1298,2026-06-27,Noor Trading,Chattogram,Primer,67,980,8
+SO-1299,2026-06-28,Roy Enterprise,Rajshahi,Exterior Emulsion,68,1850,12
+SO-1300,2026-06-30,Akter Trading,Sylhet,Enamel,24,1350,12

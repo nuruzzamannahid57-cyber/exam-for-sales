@@ -1,0 +1,25 @@
+dealer,region,credit_limit,outstanding,days_overdue
+Rahman Traders,Dhaka,300000,141000,0
+Alam Paints House,Dhaka,500000,480000,45
+Karim Enterprise,Dhaka,1500000,998000,70
+Hossain Color Center,Dhaka,1500000,862000,0
+Islam Hardware,Chattogram,1500000,402000,25
+Mia & Sons,Chattogram,300000,174000,70
+Noor Trading,Chattogram,800000,302000,25
+Sultana Paints,Chattogram,800000,826000,35
+Uddin Brothers,Khulna,1000000,1049000,0
+Chowdhury Color Point,Khulna,800000,220000,25
+Biswas Store,Khulna,800000,471000,25
+Das Paints Corner,Khulna,300000,276000,35
+Roy Enterprise,Rajshahi,800000,473000,0
+Ahmed Decor,Rajshahi,1000000,957000,70
+Khan Traders,Rajshahi,300000,168000,70
+Sarker Hardware,Rajshahi,1000000,979000,25
+Paul Color House,Sylhet,1000000,679000,70
+Haque Paints,Sylhet,1500000,960000,0
+Mondol Enterprise,Sylhet,1500000,586000,0
+Akter Trading,Sylhet,300000,305000,0
+Majumder Store,Barishal,1500000,847000,0
+Bhuiyan Paints,Barishal,1000000,951000,0
+Talukder Color Mart,Barishal,1000000,773000,25
+Saha Traders,Barishal,1500000,812000,25
