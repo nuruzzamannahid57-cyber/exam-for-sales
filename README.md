@@ -39,7 +39,9 @@ Run `python -m unittest discover -s tests -v` from the repository root. The chec
 
 ## Study website
 
-The repository also includes a static website for browsing the lessons, practice tasks, solutions, study plan, and sample data. Excel's Learn tab has eight guided lessons, each followed by a three-question exam with explanations and unlimited retries. Step exam best scores and manually marked topic completion are stored locally in the browser, not synced between devices. These step exams are separate from the original Excel dataset exercises; the Python Excel checker still runs locally as described above.
+The repository also includes a static website for browsing the lessons, practice tasks, solutions, study plan, and sample data. Excel's Learn tab has eight guided lessons, each followed by a three-question quiz. The **Practical exam** tab in topics 01 (Excel), 03 (sales reporting) and 04 (aptitude) presents spreadsheet-style formula questions: answer three correctly to unlock the next step, and choose a new set to vary the data and question order. The practice sheet supports a limited set of spreadsheet functions and is not a full Excel replacement. Practical exam unlocks, quiz best scores and manually marked topic completion are stored locally in the browser, not synced between devices. The original Excel dataset exercises and local Python checker remain available.
+
+Download the three `.xlsx` workbooks from those topics or the Resources page. Each has practice questions, yellow answer cells, a check column and a separate answer key; the reporting and Excel files include the fictional sales data. Enter percentages as percentage points (86 means 86%), and open the workbook in Excel or upload it to Google Sheets so formulas recalculate. To regenerate the workbooks after changing the source data, install `openpyxl==3.1.5` and run `python scripts/generate_workbooks.py`.
 
 To run the website locally (Node.js 20.19+ or 22.12+):
 
