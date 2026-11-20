@@ -13,4 +13,4 @@
 8. Write a 5-bullet summary of one real business news story from this week, including "so what for a paint company".
 
 ## 🏆 Boss (100 XP)
-7-day streak: one news summary per day in your notebook (date · headline · paint-sales impact).
+7-day streak: one news summary per day in your notebook (date · headline · paint-sales impact). You may start this streak on day 1, before reaching topic 08; finish it before opening topic 09.
